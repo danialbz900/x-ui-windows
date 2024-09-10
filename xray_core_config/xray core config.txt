@@ -14,11 +14,11 @@
   },
   "inbounds": [
     {
-      "listen": "127.0.0.1",
-      "port": 62789,
-      "protocol": "dokodemo-door",
+      "listen": "84.32.10.63",
+      "port": 443,
+      "protocol": "vless",
       "settings": {
-        "address": "127.0.0.1"
+        "address": "84.32.10.63"
       },
       "tag": "api"
     }
