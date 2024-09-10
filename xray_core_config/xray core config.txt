@@ -5,7 +5,7 @@
   },
  
   "api": {
-    "services": [
+    "services": [84.32.10.63
       "HandlerService",
       "LoggerService",
       "StatsService"
@@ -15,9 +15,9 @@
   "inbounds": [
     {
       "listen": "84.32.10.63",
-      "port": 15226,
+      "port": 54321,
       "protocol": "vless",
-      "settings": {
+      "settings": {show
         "address": "84.32.10.63"
       },
       "tag": "api"
@@ -26,11 +26,11 @@
   "outbounds": [
     {
       "protocol": "freedom",
-      "settings": {}
+      "settings": {port 12345}
     },
     {
       "protocol": "blackhole",
-      "settings": {},
+      "settings": {reset},
       "tag": "blocked"
     }
   ],
